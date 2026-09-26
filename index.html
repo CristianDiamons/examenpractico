@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaTienda | Tienda en línea</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div class="barra-superior py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <span><i class="bi bi-truck"></i> Envíos disponibles a todo México</span>
+            <span><i class="bi bi-telephone"></i> Atención: +52 961 123 4567</span>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span>NOVA</span>TIENDA
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#categorias">Categorías</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+
+                <div class="d-flex gap-3 iconos-menu">
+                    <i class="bi bi-search"></i>
+                    <i class="bi bi-cart3"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="container py-4">
+            <div class="hero-contenido">
+                <img src="imagenes/carrusel-2.jpg" alt="Compras de temporada">
+
+                <div class="hero-texto">
+                    <h1>Encuentra lo que necesitas</h1>
+                    <p>Ropa, calzado, electrónica y más en un solo lugar.</p>
+                    <a href="#productos" class="btn btn-principal">Ver productos</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="beneficios py-4">
+        <div class="container">
+            <div class="row g-3 text-center">
+                <div class="col-md-3 col-6">
+                    <div class="beneficio">
+                        <i class="bi bi-patch-check"></i>
+                        <h6>Buena calidad</h6>
+                        <p>Productos seleccionados</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="beneficio">
+                        <i class="bi bi-truck"></i>
+                        <h6>Envío rápido</h6>
+                        <p>Entrega segura</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="beneficio">
+                        <i class="bi bi-arrow-repeat"></i>
+                        <h6>Devoluciones</h6>
+                        <p>Hasta 30 días</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="beneficio">
+                        <i class="bi bi-headset"></i>
+                        <h6>Soporte</h6>
+                        <p>Atención personalizada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categorias" class="py-5">
+        <div class="container">
+            <div class="titulo-seccion text-center mb-4">
+                <h2>Categorías</h2>
+                <p>Conoce algunos de los productos que puedes encontrar.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="categoria-card text-center">
+                        <img src="imagenes/cat-1.jpg" alt="Ropa">
+                        <h5>Ropa</h5>
+                        <p>Prendas para diferentes estilos.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="categoria-card text-center">
+                        <img src="imagenes/cat-2.jpg" alt="Electrónica">
+                        <h5>Electrónica</h5>
+                        <p>Cámaras y accesorios.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="categoria-card text-center">
+                        <img src="imagenes/cat-3.jpg" alt="Calzado">
+                        <h5>Calzado</h5>
+                        <p>Opciones cómodas y prácticas.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="categoria-card text-center">
+                        <img src="imagenes/cat-4.jpg" alt="Belleza">
+                        <h5>Belleza</h5>
+                        <p>Productos para cuidado personal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="productos py-5">
+        <div class="container">
+            <div class="titulo-seccion text-center mb-4">
+                <h2>Productos destacados</h2>
+                <p>Algunos productos disponibles en NovaTienda.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card producto-card h-100">
+                        <img src="imagenes/product-1.jpg" class="card-img-top" alt="Cámara fotográfica">
+                        <div class="card-body">
+                            <h5 class="card-title">Cámara fotográfica</h5>
+                            <p class="precio">$12,500 <del>$15,000</del></p>
+                            <button class="btn btn-secundario w-100">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card producto-card h-100">
+                        <img src="imagenes/product-2.jpg" class="card-img-top" alt="Blusa azul">
+                        <div class="card-body">
+                            <h5 class="card-title">Blusa azul</h5>
+                            <p class="precio">$250 <del>$400</del></p>
+                            <button class="btn btn-secundario w-100">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card producto-card h-100">
+                        <img src="imagenes/product-3.jpg" class="card-img-top" alt="Lámpara de mesa">
+                        <div class="card-body">
+                            <h5 class="card-title">Lámpara de mesa</h5>
+                            <p class="precio">$1,250 <del>$2,300</del></p>
+                            <button class="btn btn-secundario w-100">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card producto-card h-100">
+                        <img src="imagenes/product-4.jpg" class="card-img-top" alt="Tenis negros">
+                        <div class="card-body">
+                            <h5 class="card-title">Tenis deportivos</h5>
+                            <p class="precio">$799 <del>$993</del></p>
+                            <button class="btn btn-secundario w-100">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="informacion py-5">
+        <div class="container text-center">
+            <h2>Compra fácil y rápido</h2>
+            <p>En NovaTienda puedes encontrar diferentes productos desde un mismo sitio.</p>
+        </div>
+    </section>
+
+    <footer id="contacto" class="footer pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h4><span>NOVA</span>TIENDA</h4>
+                    <p>Tienda en línea con productos de ropa, electrónica, calzado y más.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Enlaces</h5>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#categorias">Categorías</a>
+                    <a href="#productos">Productos</a>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p><i class="bi bi-geo-alt"></i> Tuxtla Gutiérrez, Chiapas</p>
+                    <p><i class="bi bi-envelope"></i> contacto@novatienda.com</p>
+                    <p><i class="bi bi-telephone"></i> +52 961 123 4567</p>
+                </div>
+            </div>
+
+            <hr>
+            <p class="text-center mb-0"> 2026 NovaTienda</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
