@@ -37,6 +37,7 @@ body {
     font-size: 20px;
 }
 
+/* Imagen principal */
 .hero {
     background-color: #eaf1f6;
 }
@@ -83,6 +84,7 @@ body {
     color: #16324f;
 }
 
+/* Beneficios */
 .beneficio {
     background-color: white;
     padding: 22px 10px;
@@ -107,6 +109,7 @@ body {
     margin-bottom: 0;
 }
 
+/* Títulos */
 .titulo-seccion h2 {
     color: #2f5d7c;
     font-weight: bold;
@@ -116,6 +119,7 @@ body {
     color: #777;
 }
 
+/* Categorías */
 .categoria-card {
     background-color: white;
     border-radius: 10px;
@@ -141,6 +145,7 @@ body {
     font-size: 14px;
 }
 
+/* Productos */
 .productos {
     background-color: #eaf1f6;
 }
@@ -185,6 +190,7 @@ body {
     color: white;
 }
 
+/* Información */
 .informacion {
     background-color: white;
 }
@@ -198,6 +204,7 @@ body {
     color: #666;
 }
 
+/* Footer */
 .footer {
     background-color: #1f3548;
     color: #dfe7ed;
@@ -224,6 +231,7 @@ body {
     font-size: 14px;
 }
 
+/* Responsive básico */
 @media (max-width: 768px) {
     .barra-superior .container {
         flex-direction: column;
